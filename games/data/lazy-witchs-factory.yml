@@ -1,0 +1,88 @@
+uuid: "ab9aab82-14c1-47cf-a792-b43c09db08d2"
+label: "lazy-witchs-factory"
+meta:
+  displayName: "Lazy Witch's Factory"
+  iconUrl: "lazy-witchs-factory/lazy-witchs-factory-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3971650"
+    steamFolderName: "Lazy Witch's Factory"
+    dataFolderName: "LazyWitchsFactory_Data"
+    exeNames:
+      - "LazyWitchsFactory.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Lazy Witch's Factory"
+      iconUrl: "lazy-witchs-factory/lazy-witchs-factory-cover-360x480.webp"
+    settingsIdentifier: "LazyWitchsFactory"
+    internalFolderName: "LazyWitchsFactory"
+    packageIndex: "https://thunderstore.io/c/lazy-witchs-factory/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Lazy Witch's Factory"
+  listed: true
+  meta:
+    icon: "lazy-witchs-factory/lazy-witchs-factory-icon-192x192.webp"
+    cover: "lazy-witchs-factory/lazy-witchs-factory-cover-360x480.webp"
+    background: "lazy-witchs-factory/lazy-witchs-factory-bg-1920x1080.webp"
+    hero: "lazy-witchs-factory/lazy-witchs-factory-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Your debt comes due in 30 minutes. Twist the rules through demonic contracts and survive impossible production quotas in this chaotic factory-building roguelite."
