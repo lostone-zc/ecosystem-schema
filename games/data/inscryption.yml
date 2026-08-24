@@ -67,6 +67,8 @@ thunderstore:
       label: "Misc"
     modpacks:
       label: "Modpacks"
+    ai-generated:
+      label: "AI Generated Content"
   sections:
     mods:
       name: "All Mods"
