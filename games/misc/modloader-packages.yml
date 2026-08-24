@@ -283,3 +283,6 @@
 - packageId: "BOMBANANA_Modding-BepInExPack_BOMBANANA"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "CultOfPiN_Modding-BepInExPack_CultOfPiN"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"

@@ -1,0 +1,88 @@
+uuid: "4a187298-c6a2-4f5f-a71a-01c8ff8de177"
+label: "cult-of-pin"
+meta:
+  displayName: "Cult of PiN"
+  iconUrl: "cult-of-pin/cult-of-pin-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3144340"
+    steamFolderName: "CultOfPiN"
+    dataFolderName: "CultOfPin_Data"
+    exeNames:
+      - "CultOfPin.exe"
+      - "CultOfPin.x86_64"
+      - "CultOfPin.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Cult of PiN"
+      iconUrl: "cult-of-pin/cult-of-pin-cover-360x480.webp"
+    settingsIdentifier: "CultOfPiN"
+    internalFolderName: "CultOfPiN"
+    packageIndex: "https://thunderstore.io/c/cult-of-pin/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Cult of PiN"
+  listed: true
+  meta:
+    icon: "cult-of-pin/cult-of-pin-icon-192x192.webp"
+    cover: "cult-of-pin/cult-of-pin-cover-360x480.webp"
+    background: "cult-of-pin/cult-of-pin-bg-1920x1080.webp"
+    hero: "cult-of-pin/cult-of-pin-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Flip, nudge, and destroy in this roguelike pinball deckbuilder. Select from 100+ upgrades to create game-breaking builds and smash through the cursed playfields. Complete missions to trigger explosive special attacks and tear the tables apart, one bumper at a time."
