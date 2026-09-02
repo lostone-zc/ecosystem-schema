@@ -1,0 +1,88 @@
+uuid: "460c3be1-e7fb-4f21-aa50-2c85a96b13d2"
+label: "limitless-survivor"
+meta:
+  displayName: "Limitless Survivor"
+  iconUrl: "limitless-survivor/limitless-survivor-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4438540"
+    steamFolderName: "Limitless Survivor"
+    dataFolderName: "Limitless Survivor_Data"
+    exeNames:
+      - "Limitless Survivor.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Limitless Survivor"
+      iconUrl: "limitless-survivor/limitless-survivor-cover-360x480.webp"
+    settingsIdentifier: "LimitlessSurvivor"
+    internalFolderName: "LimitlessSurvivor"
+    packageIndex: "https://thunderstore.io/c/limitless-survivor/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Limitless Survivor"
+  listed: true
+  meta:
+    icon: "limitless-survivor/limitless-survivor-icon-192x192.webp"
+    cover: "limitless-survivor/limitless-survivor-cover-360x480.webp"
+    background: "limitless-survivor/limitless-survivor-bg-1920x1080.webp"
+    hero: "limitless-survivor/limitless-survivor-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Incremental roguelite with infinite progression. Collect powerful artifacts, gather crystals, and scale your stats to absurd levels. Let auto-play handle the grind anytime—even while you're away. New in Ver. 1.1: Drones, a new loot-hunting system!"
