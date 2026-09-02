@@ -1,0 +1,89 @@
+uuid: "1b8b1aee-8066-4bde-a05c-1485f054a617"
+label: "inferno-protocol"
+meta:
+  displayName: "Inferno Protocol"
+  iconUrl: "inferno-protocol/inferno-protocol-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3908940"
+    steamFolderName: "Inferno Protocol"
+    dataFolderName: "Inferno Protocol_Data"
+    exeNames:
+      - "Inferno Protocol.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Inferno Protocol"
+      iconUrl: "inferno-protocol/inferno-protocol-cover-360x480.webp"
+    settingsIdentifier: "InfernoProtocol"
+    internalFolderName: "InfernoProtocol"
+    packageIndex: "https://thunderstore.io/c/inferno-protocol/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Inferno Protocol"
+  listed: true
+  meta:
+    icon: "inferno-protocol/inferno-protocol-icon-192x192.webp"
+    cover: "inferno-protocol/inferno-protocol-cover-360x480.webp"
+    background: "inferno-protocol/inferno-protocol-bg-1920x1080.webp"
+    hero: "inferno-protocol/inferno-protocol-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://inferno-protocol.wiki/"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "A survival horror set in a massive maze. Play solo or 6-player co-op. Scavenge resources to craft gear and survive against terrifying enemies. Unlock unique abilities and find the exit."
