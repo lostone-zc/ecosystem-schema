@@ -8,8 +8,8 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4747510"
-    steamFolderName: "BOMBANANA! Demo"
+        identifier: "4656000"
+    steamFolderName: "BOMBANANA!"
     dataFolderName: "BOMBANANA_Data"
     exeNames:
       - "BOMBANANA.exe"
@@ -82,4 +82,4 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  shortDescription: "You are a 3-player bomb defusal team made up of three monkeys: blind, deaf, and mute. Inside your minivan turned mobile bomb workshop, you must defuse bombs before they explode using limited time and limited communication!"
+  shortDescription: "Chaotic bomb disposal fun with friends & monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?"
