@@ -1,0 +1,92 @@
+uuid: "95aa401b-5076-4639-acb9-4da01bfd3ab5"
+label: "holdfast-nations-at-war"
+meta:
+  displayName: "Holdfast: Nations At War"
+  iconUrl: "holdfast-nations-at-war/holdfast-nations-at-war-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "589290"
+      - platform: "xbox-game-pass"
+        identifier: "AnvilGameStudios.HoldfastNationsAtWar"
+    steamFolderName: "Holdfast Nations At War"
+    dataFolderName: "Holdfast NaW_Data"
+    exeNames:
+      - "Holdfast NaW.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Holdfast: Nations At War"
+      iconUrl: "holdfast-nations-at-war/holdfast-nations-at-war-cover-360x480.webp"
+    settingsIdentifier: "HoldfastNationsAtWar"
+    internalFolderName: "HoldfastNationsAtWar"
+    packageIndex: "https://thunderstore.io/c/holdfast-nations-at-war/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "Holdfast NaW"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Holdfast: Nations At War"
+  listed: true
+  meta:
+    icon: "holdfast-nations-at-war/holdfast-nations-at-war-icon-192x192.webp"
+    cover: "holdfast-nations-at-war/holdfast-nations-at-war-cover-360x480.webp"
+    background: "holdfast-nations-at-war/holdfast-nations-at-war-bg-1920x1080.webp"
+    hero: "holdfast-nations-at-war/holdfast-nations-at-war-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://wiki.holdfastgame.com/Script_Modding_Guide"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Fight on multiple fronts in Holdfast: Nations At War - A multiplayer first and third-person shooter set during the great Napoleonic Era and WW1. Charge into battle with over 150 players per server!"
