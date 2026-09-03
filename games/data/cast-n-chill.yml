@@ -1,0 +1,62 @@
+uuid: "e8024910-487c-461c-b865-d5d5b7a15d8e"
+label: "cast-n-chill"
+meta:
+  displayName: "Cast n Chill"
+  iconUrl: "cast-n-chill/cast-n-chill-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3483740"
+    steamFolderName: "Cast n Chill"
+    dataFolderName: "castnchill_Data"
+    exeNames:
+      - "castnchill.exe"
+      - "Cast n Chill.app"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Cast n Chill"
+      iconUrl: "cast-n-chill/cast-n-chill-cover-360x480.webp"
+    settingsIdentifier: "CastNChill"
+    internalFolderName: "CastNChill"
+    packageIndex: "https://thunderstore.io/c/cast-n-chill/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Cast n Chill"
+  listed: true
+  meta:
+    icon: "cast-n-chill/cast-n-chill-icon-192x192.webp"
+    cover: "cast-n-chill/cast-n-chill-cover-360x480.webp"
+    background: "cast-n-chill/cast-n-chill-bg-1920x1080.webp"
+    hero: "cast-n-chill/cast-n-chill-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Cast n Chill is a relaxing fishing game where you explore serene lakes, rivers, and oceans. Catch rare fish, upgrade your gear and reel in legendary catches - all with your loyal companion by your side."

@@ -1,0 +1,90 @@
+uuid: "ab2af3b3-634f-4702-8513-94e49ee859fb"
+label: "the-message-from-deep-space"
+meta:
+  displayName: "The Message from Deep Space"
+  iconUrl: "the-message-from-deep-space/the-message-from-deep-space-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4080030"
+    steamFolderName: "The Message from Deep Space"
+    dataFolderName: "The Message From Deep Space_Data"
+    exeNames:
+      - "The Message From Deep Space.exe"
+      - "TMFDS.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "The Message from Deep Space"
+      iconUrl: "the-message-from-deep-space/the-message-from-deep-space-cover-360x480.webp"
+    settingsIdentifier: "TheMessageFromDeepSpace"
+    internalFolderName: "TheMessageFromDeepSpace"
+    packageIndex: "https://thunderstore.io/c/the-message-from-deep-space/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "TMFDS"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "The Message from Deep Space"
+  listed: true
+  meta:
+    icon: "the-message-from-deep-space/the-message-from-deep-space-icon-192x192.webp"
+    cover: "the-message-from-deep-space/the-message-from-deep-space-cover-360x480.webp"
+    background: "the-message-from-deep-space/the-message-from-deep-space-bg-1920x1080.webp"
+    hero: "the-message-from-deep-space/the-message-from-deep-space-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Mission: Translate an interstellar message, using the universal languages of math & science."
