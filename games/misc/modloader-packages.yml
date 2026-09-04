@@ -286,3 +286,6 @@
 - packageId: "CultOfPiN_Modding-BepInExPack_CultOfPiN"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "TheSexyBrutale_Modding-BepInExPack_TheSexyBrutale"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
